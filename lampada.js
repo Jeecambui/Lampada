@@ -1,8 +1,8 @@
-const turnOn = document.getElementById ('turnOn');
-const turnOff = document.getElementById ('turnOff');
+const turnOnOff = document.getElementById ('turnOnOff');
+
 const lamp = document.getElementById ('lamp');
 
-function lampReset (){ //para quando lampada estiver quebrada
+function lampReset (){ 
     return lamp.src.indexOf ('quebrada') > -1;
 }
 
@@ -13,17 +13,27 @@ function lampOn (){
 }
 
 function lampOff(){
-    if ( !lampReset() ) {   
+    if ( !lampReset() ) {
         lamp.src = './img/desligada.jpg';
     }
 }
 
-function lampBroken(){ //Quebra a lampada quando passa com mouse por cima
+function lampBroken(){
     lamp.src = './img/quebrada.jpg'
 }
 
-turnOn.addEventListener ('click', lampOn); //Liga lampada no botão
-turnOff.addEventListener ('click', lampOff); //Desliga lampada no botão
-lamp.addEventListener('mouseover', lampOn); // Ascende lampada quando passa mouse 
-lamp.addEventListener('mouseleave', lampOff); // Desliga lampada quando tira mouse 
+function lampOnOff (){
+    if (turnOnOff.textContent == 'Ligar'){
+        lampOn();
+        turnOnOff.textContent= 'Desligar';
+    }else{
+        lampOff();
+        turnOnOff.textContent = 'Ligar';
+    }
+}
+
+turnOnOff.addEventListener ('click', lampOnOff);
+
+lamp.addEventListener('mouseover', lampOn);  
+lamp.addEventListener('mouseleave', lampOff);
 lamp.addEventListener('dblclick', lampBroken);
