@@ -3,13 +3,15 @@
 </h1>
 
 <h4 align="center">
- Projeto da Lâmpada ascende, apaga e quebra feito com HTML, CSS, Javascript. Para conhecer o projeto clique <a href="lampada-jef.netlify.app"><strong>aqui</a></strong> 
+ Projeto da Lâmpada ascende, apaga e quebra feito com HTML, CSS, Javascript. 
+ Para conhecer o projeto clique <a href="lampada-jef.netlify.app"><strong>aqui</a></strong> 
 </h4>
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-informacoes">Informações Extras</a>&nbsp;&nbsp;&nbsp;
+  <a href="#memo-informações">Informações</a>
+
 </p>
 
 ## :rocket: Tecnologias
@@ -41,7 +43,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 </div>
 
 
-## :information_source: Informações Extras
+## :memo: Informações
 Feito com carinho ♥ por Jeferson Cambui <a href="https://www.linkedin.com/in/jefersoncambui/">:wave: <strong>Toca aqui</a></strong> ! <br>
 
 e créditos ao professor Fernando Leonid do canal no <a href="https://www.youtube.com/c/FernandoLeonid">youtube</a> onde tive direcionamento para o projeto.
